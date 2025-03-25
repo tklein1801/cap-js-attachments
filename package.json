@@ -1,8 +1,14 @@
 {
-  "name": "@cap-js/attachments",
+  "name": "@tklein1801/cap-js-attachments",
   "description": "CAP cds-plugin providing image and attachment storing out-of-the-box.",
   "version": "2.0.2",
-  "repository": "cap-js/attachments",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tklein1801/cap-js-attachments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tklein1801/cap-js-attachments/issues"
+  },
   "author": "SAP SE (https://www.sap.com)",
   "homepage": "https://cap.cloud.sap/",
   "license": "SEE LICENSE IN LICENSE",
@@ -12,10 +18,15 @@
     "lib",
     "srv"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "lint": "npx eslint .",
     "test": "npx jest",
-    "prepare": "node .husky/install.mjs"
+    "prepare": "node .husky/install.mjs",
+    "prepublish": "npm run lint && npm test"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.400.0",
