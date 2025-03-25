@@ -2,7 +2,7 @@
   "name": "@capire/incidents",
   "version": "1.0.0",
   "dependencies": {
-    "@cap-js/attachments": "file:../../."
+    "@tklein1801/cap-js-attachments": "file:../../."
   },
   "cds": {
     "requires": {

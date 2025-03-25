@@ -58,10 +58,10 @@
       },
       "kinds": {
         "attachments-db": {
-          "impl": "@cap-js/attachments/lib/basic"
+          "impl": "@tklein1801/cap-js-attachments/lib/basic"
         },
         "attachments-s3": {
-          "impl": "@cap-js/attachments/lib/aws-s3",
+          "impl": "@tklein1801/cap-js-attachments/lib/aws-s3",
           "vcap": {
             "label": "objectstore"
           }

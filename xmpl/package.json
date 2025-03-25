@@ -2,7 +2,7 @@
   "name": "@capire/attachments-sample",
   "version": "1.0.0",
   "dependencies": {
-    "@cap-js/attachments": "*",
+    "@tklein1801/cap-js-attachments": "*",
     "@capire/incidents": "*",
     "@sap/cds": "*"
   },

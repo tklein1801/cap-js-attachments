@@ -1,6 +1,6 @@
 ### Attachments sample
 
-This repository contains a sample CDS model extensions to demonstrate the CDS plugin [@cap-js/attachments](https://github.com/cap-js/attachments) on the [Incidents Management](https://github.com/cap-js/incidents-app) reference app for the new reuse types `Attachments`.
+This repository contains a sample CDS model extensions to demonstrate the CDS plugin [@tklein1801/cap-js-attachments](https://github.com/tklein1801/cap-js-attachments) on the [Incidents Management](https://github.com/cap-js/incidents-app) reference app for the new reuse types `Attachments`.
 
 
 ### References

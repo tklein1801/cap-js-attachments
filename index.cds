@@ -1,6 +1,6 @@
 
 // The common root-level aspect used in applications like that:
-// using { Attachments } from '@cap-js/attachments'
+// using { Attachments } from '@tklein1801/cap-js-attachments'
 aspect Attachments : sap.attachments.Attachments {}
 
 

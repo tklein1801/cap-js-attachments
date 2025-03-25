@@ -1,8 +1,8 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/cap-js/attachments)](https://api.reuse.software/info/github.com/cap-js/attachments)
+[![REUSE status](https://api.reuse.software/badge/github.com/tklein1801/cap-js-attachments)](https://api.reuse.software/info/github.com/tklein1801/cap-js-attachments)
 
 # Attachments Plugin
 
-The `@cap-js/attachments` package is a [CDS plugin](https://cap.cloud.sap/docs/node.js/cds-plugins#cds-plugin-packages) that provides out-of-the box asset storage and handling by using an *aspect* `Attachments`. It also provides a CAP-level, easy to use integration of the SAP Object Store.
+The `@tklein1801/cap-js-attachments` package is a [CDS plugin](https://cap.cloud.sap/docs/node.js/cds-plugins#cds-plugin-packages) that provides out-of-the box asset storage and handling by using an *aspect* `Attachments`. It also provides a CAP-level, easy to use integration of the SAP Object Store.
 
 ### Table of Contents
 
@@ -24,7 +24,7 @@ The `@cap-js/attachments` package is a [CDS plugin](https://cap.cloud.sap/docs/n
 To enable attachments, simply add this self-configuring plugin package to your project:
 
 ```sh
- npm add @cap-js/attachments
+ npm add @tklein1801/cap-js-attachments
 ```
 
 In this guide, we use the [Incidents Management reference sample app](https://github.com/cap-js/incidents-app) as the base application, to add `Attachments` type to the CDS model.
@@ -41,7 +41,7 @@ In this guide, we use the [Incidents Management reference sample app](https://gi
 To use Attachments, simply add an element referring to the pre-defined `Attachments` type as follows:
 
 ```cds
-using { Attachments } from '@cap-js/attachments';
+using { Attachments } from '@tklein1801/cap-js-attachments';
 
 entity Incidents {
   // ...
@@ -136,7 +136,7 @@ The feature is ready for multitenancy scenarios utilizing a shared `object store
 
 ## Contributing
 
-This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/cap-js/attachments/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
+This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/tklein1801/cap-js-attachments/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## Code of Conduct
 
@@ -144,4 +144,4 @@ We as members, contributors, and leaders pledge to make participation in our com
 
 ## Licensing
 
-Copyright 2024 SAP SE or an SAP affiliate company and contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/cap-js/attachmentstea).
+Copyright 2024 SAP SE or an SAP affiliate company and contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/tklein1801/cap-js-attachmentstea).
