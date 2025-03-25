@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "lint": "npx eslint .",
-    "test": "npx jest"
+    "test": "npx jest",
+    "prepare": "node .husky/install.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.400.0",
@@ -28,6 +29,7 @@
     "chai-subset": "^1.6.0",
     "eslint": "^9",
     "express": "^4.18.2",
+    "husky": "^9.1.7",
     "jest": "^29.7.0"
   },
   "peerDependencies": {
@@ -40,8 +42,8 @@
     "requires": {
       "malwareScanner": {
         "vcap": {
-            "label": "malware-scanner"
-          }
+          "label": "malware-scanner"
+        }
       },
       "kinds": {
         "attachments-db": {
